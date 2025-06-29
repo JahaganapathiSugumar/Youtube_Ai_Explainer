@@ -18,8 +18,7 @@ from youtube_transcript_api import (
 )
 
 load_dotenv()
-groq_api_key = os.getenv("GROQ_API_KEY")
-
+groq_api_key = st.secrets["GROQ_API_KEY"]
 
 st.title("AI YouTube Explainer & Summarizer")
 st.write("Enter a YouTube video URL to get the transcript, summary, and answer questions about the video.")
