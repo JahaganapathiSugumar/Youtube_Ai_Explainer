@@ -1,5 +1,8 @@
 streamlit
-langchain
-langchain-community
 pytube
 python-dotenv
+langchain
+langchain-community
+langchain-groq
+youtube-transcript-api
+faiss-cpu
